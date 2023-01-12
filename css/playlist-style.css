@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@500&family=Racing+Sans+One&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+}
+
+    li{
+        padding-right: 80px;
+        margin: 10px;
+    }
+
+body{
+    background:linear-gradient(black, indigo)
+}
+
+header{
+    background-color:chartreuse;
+    padding: 10px; 
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    color: rgb(126, 32, 214);
+    padding: 30px 30px 20px 30px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif; 
+    color: indigo;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+nav{
+    font-family: 'Montserrat', sans-serif; 
+    font-size:larger;
+}
+
+div{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.tamaño{
+    height: 50px ;
+    width: 50px;
+    border: none;
+}
+
+.line{
+    display: inline;
+}
+
+.foot{
+    border-top: solid 5px;
+    border-color: black;
+    padding-top: 10px;
+}
