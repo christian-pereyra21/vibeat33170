@@ -17,8 +17,6 @@ ul{
 
 body{
     background:linear-gradient(black, indigo);
-    height: 100%;
-    width: 100%;
     flex-direction: column;
     display:flex;
 }
@@ -49,6 +47,8 @@ footer{
 
 .grilla{ 
     display: grid;
+    width: 100%;
+    height: 100%;
     grid-template-areas:
     "header"
     "nav"
@@ -130,7 +130,25 @@ p{
     padding-top: 10px;
 }
 
-@media(min-width:500px){
+.box{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.transition:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+    transition-property: all;
+}
+
+.img-tamaño{
+    height: 300px;
+    width: 300px;
+}
+
+@media(min-width:600px){
     .grilla{
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
@@ -139,5 +157,28 @@ p{
         "main     main"
         "section  section"
         "footer   footer";
-    }
+        gap:20px;
+        }
+}
+
+@media(min-width:768px){
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header  header   header"
+    "nav     nav      nav"
+    "main    main     main"
+    "section section  section"
+    "footer  footer   footer";
+    gap: 20px;
+}
+
+@media(min-width:1024px){
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header  header   header"
+    "nav     nav      nav"
+    "main    main     main"
+    "section section  section"
+    "footer  footer   footer";
+    gap: 20px;
 }
