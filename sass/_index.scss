@@ -1,0 +1,56 @@
+body{
+    background:linear-gradient(black, indigo);
+    flex-direction: column;
+    display:flex;
+
+    header{
+        grid-area: header;
+
+        nav{
+            font-family: 'Montserrat', sans-serif; 
+            background-color:chartreuse;
+            padding: 10px; 
+            grid-area: nav;
+
+            ul{
+                list-style-type: none;
+                display:flex;
+
+                li{
+                    padding-right: 80px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    main{
+        grid-area: main;
+        text-align: center;
+        div{
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        section{
+            grid-area: section;
+        }
+    }
+
+    footer{
+        grid-area: footer;
+
+        .foot{
+            border-top: solid 5px;
+            border-color: black;
+            padding-top: 10px;
+        }
+        .tamaño{
+            height: 50px ;
+            width: 50px;
+            border: none;
+        }
+        .line{
+            display: inline;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+img{
+    border: 10px groove;
+    border-color:purple;    
+}
+
+@mixin sizes ($width,$height){
+    height: $height;
+    width: $width;
+}
+
+.mixin{
+    @include sizes (300px,300px )
+}
+
+.box{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.transition:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+    transition-property: all;
+}
+
