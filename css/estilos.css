@@ -35,6 +35,11 @@ body main div {
   padding-bottom: 30px;
   padding-top: 30px;
 }
+body main p {
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 body main section {
   grid-area: section;
 }

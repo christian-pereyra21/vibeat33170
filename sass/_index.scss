@@ -21,6 +21,7 @@ body{
                     margin: 10px;
                 }
             }
+            
         }
     }
 
@@ -30,6 +31,11 @@ body{
         div{
             padding-bottom: 30px;
             padding-top: 30px;
+        }
+        p{
+            text-align: start;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         section{
             grid-area: section;
